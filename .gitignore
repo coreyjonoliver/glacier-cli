@@ -1,0 +1,22 @@
+*.class
+*.log
+test.default.props
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/cache/
+project/plugins/project/
+project/plugins.sbt
+
+# Scala-IDE specific
+.scala_dependencies
+.cache
+.classpath
+.project
+.settings/
+
+.DS_Store
