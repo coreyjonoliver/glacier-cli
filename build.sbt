@@ -8,6 +8,7 @@ scalaVersion := "2.9.2"
 resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases"
 
 libraryDependencies ++= Seq(
+  "com.amazonaws" % "aws-java-sdk" % "1.3.32",
   "net.liftweb" %% "lift-common" % "2.5-M1",
   "net.liftweb" %% "lift-util" % "2.5-M1",
   "net.liftweb" %% "lift-json" % "2.5-M1",
