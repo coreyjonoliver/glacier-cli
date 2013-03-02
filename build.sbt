@@ -1,21 +1,15 @@
-name := "kink"
+name := "glacier-cli"
 
 organization := "org.coreyoliver"
+
 version := "0.1"
 
 scalaVersion := "2.9.2"
 
-resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases"
-
 libraryDependencies ++= Seq(
   "com.amazonaws" % "aws-java-sdk" % "1.3.32",
-  "net.liftweb" %% "lift-common" % "2.5-M1",
-  "net.liftweb" %% "lift-util" % "2.5-M1",
-  "net.liftweb" %% "lift-json" % "2.5-M1",
-  "net.databinder.dispatch" %% "core" % "0.9.1",
   "org.scalatest" %% "scalatest" % "1.8" % "test",
-  "org.rogach" %% "scallop" % "0.7.0",
-  "commons-lang" % "commons-lang" % "2.6"
+  "org.rogach" %% "scallop" % "0.7.0"
 )
 
 parallelExecution in Test := false
